@@ -1,0 +1,53 @@
+name: qr_generator
+description: "A production-quality offline QR code generator for Android and iOS."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # QR code generation (100% local, offline)
+  qr_flutter: ^4.1.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Local storage for history & preferences
+  shared_preferences: ^2.5.3
+
+  # Native share sheet
+  share_plus: ^13.3.0
+
+  # File system paths
+  path_provider: ^2.1.5
+
+  # Save images to gallery
+  image_gallery_saver_plus: ^3.0.5
+
+  # Color picker for QR customization
+  flutter_colorpicker: ^1.1.0
+
+  # Runtime permissions
+  permission_handler: ^11.3.1
+
+  # Unique IDs for history items
+  uuid: ^4.5.1
+
+  # Date formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
