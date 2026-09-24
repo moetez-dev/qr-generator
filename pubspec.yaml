@@ -1,0 +1,28 @@
+name: qr_generator_standalone
+description: A polished, offline QR code generator.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  qr_flutter: ^4.1.0
+  shared_preferences: ^2.5.3
+  share_plus: ^11.0.0
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+dependency_overrides:
+  meta: ^1.16.0
+
+flutter:
+  uses-material-design: true
